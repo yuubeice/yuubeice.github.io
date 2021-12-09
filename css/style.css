@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+.thuvien3 img{ width:300px;height: 340px}
+.thuvien3 h5 {color:#FF91AF}
+
+.sec4{background-image: url("../images/bg-high qality.jpg");background-position: center;background-size: cover; background-attachment: fixed; }
+.box2{width:280px;height: 170px}
+p{font-size: 10px}
+.circle1{background-image: url("../images/blue_180x180 1.png");width:180px;height: 180px;background-size: cover}
+.circle2{background-image: url("../images/pink_180x180 1.png");width:180px;height: 180px;background-size: cover}
+.circle3{background-image: url("../images/sandal_180x180 1.png");width:180px;height: 180px;background-size: cover}
+.textanh{padding:40% 0 0}
+.hol >img{transition: all .3s}
+.wel:hover >img{filter:hue-rotate(-20deg); opacity: 0.7; 
+}
+.wel{position: relative}
+.best30{ 
+    position: absolute; width: 100%; left: 0; top: 15%;
+	font-size: 24px;
+	opacity: 0; transition: all .5s; color: #fff;
+	display: block; text-shadow: 1px 1px 5px #333;
+}
+.wel:hover .best30{opacity:1;
+}
+.wel:hover h5{color:#FF91AF }
+.sec5{background-image: url("../images/bg2.jpg");background-size: cover;width:100%;}
+.sec6{
+	background: url("../images/bg-our price.jpg") center;
+	height: 100%;
+	background-size: cover;
+}
+.box3, .hinh1, .hinh2, .hinh3{
+	height: 450px;
+	width: 220px;
+	background: #5EB8C0;
+	border-radius: 10px;
+	position: relative;
+}
+.box3:after{
+	content: url("../images/image 21.png");
+	position: absolute;
+	top:-60px;
+	left: 50px;
+}
+.hinh1:after{
+	content: url("../images/image 22.png");
+	position: absolute;
+	top:-60px;
+	left: 50px;
+}
+.hinh2:after{
+	content: url("../images/image 23.png");
+	position: absolute;
+	top:-60px;
+	left: 50px;
+}
+.hinh3:after{
+	content: url("../images/image 24.png");
+	position: absolute;
+	top:-60px;
+	left: 50px;
+}
+.note-hcn{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	height: 330px;
+	width: 220px;
+	background: white;
+}
+.for-cake{
+	background: #5EB8C0;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	font-size: 12px;
+	padding: 3px 15px;
+	margin: 8px 0 14px;
+}
+.td-cake{
+	font-size: 13px;
+	border-bottom: 1px solid #5EB8C0;
+	padding: 4px 0 9px;
+	margin: 6px 20px;
+	letter-spacing: 0.05em;
+	line-height: 24px;
+}
+.spbox{position: relative}
+.buy-now{
+	position: absolute;
+	top: 28%;
+	opacity: 0;
+	width: 90%;}
+.spbox:hover .boder-img{
+	opacity: 0.5;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.spbox:hover img{opacity: 0.7}
+.spbox:hover .buy-now{
+	opacity: 1;}
+.but-color2{color: #FF91AF}
+.buy{
+    letter-spacing: 0.05em;
+	padding: 4px 15px;
+	margin-top: 18px;
+}
+.name-text{
+	padding-top: 60px;
+}
+.box3:hover, .hinh1:hover, .hinh2:hover, .hinh3:hover{
+	background: #8FA83B;
+}
+.box3:hover .note-hcn, .hinh1:hover .note-hcn, .hinh2:hover .note-hcn, .hinh3:hover .note-hcn{
+	width: 210px;
+	left: 5px;
+	border-radius: 0 0 10px 10px;
+}
+.box3:hover .buy, .hinh1:hover .buy, .hinh2:hover .buy, .hinh3:hover .buy{
+	background: #8FA83B;
+	border: 1.5px solid #8FA83B;
+	color: white;
+}
+.ourprices:hover .for-cake, .hinh1:hover .for-cake, .hinh2:hover .for-cake, .hinh3:hover .for-cake{
+	background: #8FA83B;
+}
+.ourprices{
+	margin-top: 2rem;
+	font-size: 35px;
+}
+.mt-cake{
+	margin: 80px 0 70px;
+}
+
+	.client{background-image: url("../images/bg-our client.png");background-size: cover;}
+	.icon {margin-top:10%}
+	@media (min-width:768px){
+.ourprices{
+	font-size: 50px;
+}.form-contact{
+	background: url("../images/bg-contact.jpg")  center;
+	background-size: cover; background-attachment: fixed;
+	height: 100%;
+} .bg-trang{
+	background: white;
+	filter: opacity(0.9)
+}
+	.button1{background: #DAB3C9;
+	font-size: 12px;
+	color: white;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 5px;
+	} .button2{
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	padding: 12px;
+	background: #5EB8C0;
+	color: white;
+	font-size: 13px;
+}
+.button2:hover{
+	background: #FF91AF;
+}
+	.form-send-left{
+	margin-right: 1.5%
+}
+.form-send{
+	width: 48%;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	height: 40px;font-size: 12px;
+	margin-bottom: 16px;
+	padding: 15px;
+	
+}
+.form-send-full{
+	width: 99.5%;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	height: 40px;
+	margin-bottom: 16px;
+	padding: 15px;
+	font-size: 12px;
+}
+.message{
+	width: 99.5%;
+	height: 95px;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 15px;
+	font-size: 12px;
+}
+	.thuvien3 h5{padding-top: 5%}	

@@ -1,0 +1,450 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/templateFW.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Yubee Ice cream</title>
+<!-- InstanceEndEditable -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap-4.3.1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/MAIN-STYLE.css" type="text/css">	
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/shop.css" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div class="modal fade" id="shopping-box">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Giỏ hàng</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="cart-row d-flex"> <span class="cart-item cart-header cart-column">ITEM</span> <span class="cart-price cart-header cart-column">PRICE</span> <span class="cart-quantity cart-header cart-column">QUANTITY</span> </div>
+        <div class="cart-items"> </div>
+        <div class="cart-total"> <strong class="cart-total-title">Total</strong><span> $</span> <span class="cart-total-price text-danger">0</span> </div>
+        <!--  <button class="btn btn-primary btn-purchase" type="button" onClick="getURL()">Thanh toán</button>-->
+        <button type="button" class="btn btn-primary btn-purchase" onClick="MM_goToURL('parent','DIW-06 FINAL/html/THANHTOAN.html');return document.MM_returnValue">Thanh toán</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<header>
+	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="images/logo.png"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="SHOP.html" class="nav-link">Shop</a></li>
+					<li class="nav-item dropdown ">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu bg-primary">
+							<a href="our-staff.html" class="dropdown-item">Our Staff</a>
+							<a href="our-recipie.html" class="dropdown-item">Our Recipies</a>
+							<a href="our-prices.html" class="dropdown-item">Our Prices</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+				<div class="navbar-text">
+				<button type="button" class="btn" data-toggle="modal" data-target="#shopping-box"> <i class="fa fa-shopping-cart fa-2x" style="color: #5C5C5C"> </i> <span class="text-danger" id="sl">0</span></button>
+				
+				<i class="fa fa-search fa-2x ml-3"></i>
+				</div>
+			</div>
+		 </div>
+	</nav>
+	
+	
+	</header>
+	
+	<!-- InstanceBeginEditable name="ndung" -->
+	<main>
+	<section class="sec1">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active"> <img class="d-block w-100" src="images/banner1.jpg" alt="First slide"> </div>
+				<div class="carousel-item"> <img class="d-block w-100" src="images/banner-2.jpg" alt="Second slide"> </div>
+				<div class="carousel-item"> <img class="d-block w-100" src="images/banner-3.jpg" alt="Third slide"> </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+		</div>
+	</section>
+	<section class="sec2">
+		<div> <img src="images/top-left2.png">
+			<h3 class="py-5" style="text-align: center"> WELCOM TO ICE CREAM</h3>
+			<div class="container">
+				<div class="thuvien1 row justify-content-center ">
+					<div class="p-2 wel "><img class="rounded-circle border border-warning " src="images/wel 1.jpg" height="300px">
+						<div class="textbox" style="text-align: center">
+							<h5> Hot Chocelate Cream</h5>
+							<h6> Choco Chips</h6>
+							<h2 class="mt-5 best30 ">GET THE BEST <br> FOR <br> 30% OFF<br> of product</h2> </div>
+					</div>
+					<div class="p-2 wel "><img class="rounded-circle border border-warning " src="images/Rectangle 170.jpg " height="300px">
+						<div class="textbox" style="text-align: center">
+							<h5> Cool Scoop Ice Cream</h5>
+							<h6> Coffee</h6>
+							<h2 class="mt-5 best30 ">GET THE BEST <br> FOR <br> 30% OFF<br> of product</h2> </div>
+					</div>
+					<div class="p2 wel "><img style="width: 307px" class="rounded-circle border border-warning " src="images/Rectangle 171.jpg">
+						<div class="textbox" style="text-align: center">
+							<h5> Banana with Chocolate </h5>
+							<h6> Exotic</h6>
+							<h2 class="mt-5 best30 ">GET THE BEST <br> FOR <br> 30% OFF<br> of product</h2> </div>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex justify-content-end"> <img class="col-4 col-md-3" src="images/right-bottom2.png"> </div>
+		</div>
+		</div>
+	</section>
+	<section class="sec3">
+		<div class="text-center pt-5"> <img class="mt-5 icon
+			" src="images/icon-section.jpg">
+			<h3 class="pb-5"> Trending Products</h3> </div>
+		<div class="thuvien2 row text-center pb-5 ">
+			<div class="col-4"></div>
+			<div class="circle1 col-md2">
+				<h5 style="color:#5EB8C0" class="textanh"> Butter Scotch</h5></div>
+			<div class="circle2">
+				<h5 style="color:#FF91AF" class="textanh"> Blue Moon</h5></div>
+			<div class="circle3">
+				<h5 style="color:#FFDEA6" class="textanh"> Butter Pecan</h5></div>
+		</div>
+		<div class="col-2"></div>
+		<div class=" container">
+			<div class="thuvien3 justify-content-center row py-4">
+				<div class=" item spbox text-center p-3 col-md-4"><img class="img-thumbnail shop-item-image " src="images/bestSeller.jpg">
+					<h5 class="shop-item-title">Mexican chocolate</h5>
+					<h6 class="shop-item-price">$262.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="shop-item-button buy btn-warning  btn mx-auto">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> </div>
+				<div class="spbox item text-center p-3 col-md-4"><img class="img-thumbnail shop-item-image" src="images/treding2.jpg">
+					<h5 class="shop-item-title"> Chocolate Peanut</h5>
+					<h6 class="shop-item-price">$312.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="buy btn-warning  btn mx-auto shop-item-button">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+				<div class="spbox text-center p-3 col-md-4"><img class="img-thumbnail shop-item-image" src="images/homemade-vanilla-ice-cream-poured-with-honey-with-pieces-crushed-black-chocolate-glass-bowl-isolated-white_327813-60 1.jpg">
+					<h5 class="shop-item-title"> Vanilla with Honey</h5>
+					<h6 class="shop-item-price">$218.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="buy btn-warning  btn mx-auto shop-item-button">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star-o"></i> </div>
+				<div class="spbox p-3 text-center col-md-4"><img class="img-thumbnail shop-item-image" src="images/best3.jpg ">
+					<h5 class="shop-item-title"> Rainbow Sherbet</h5>
+					<h6 class="shop-item-price">$221.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="buy btn-warning  btn mx-auto shop-item-button">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star-o"></i> </div>
+				<div class="spbox p-3 text-center col-md-4"><img class="img-thumbnail shop-item-image" src="images/shop/shop (6).jpg">
+					<h5 class="shop-item-title"> Blue popsicle</h5>
+					<h6 class="shop-item-price">$25.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="buy btn-warning  btn mx-auto shop-item-button">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </div>
+				<div class="spbox p-3 text-center col-md-4"><img class="img-thumbnail shop-item-image " src="images/homemade-vanilla-ice-cream-poured-with-honey-with-pieces-crushed-black-chocolate-glass-bowl-isolated-white_327813-60 3 (2).png">
+					<h5 class="shop-item-title">Choco Lemon</h5>
+					<h6 class="shop-item-price">$212.00</h6>
+					<div class="buy-now"> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+					        </span> <span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					        </span>
+						<br>
+						<button class="buy btn-warning  btn mx-auto shop-item-button">Buy now</button>
+					</div>
+					<br> <i class="fa fa-star " style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star" style="color:#FAD55B"></i> <i class="fa fa-star-o"></i> </div>
+			</div>
+			<div class="text-center my-5">
+				<button class="btn btn-warning"><i class="fa fa-arrow-left">PREV</i> </button>
+				<button class="btn btn-warning"> <i class="fa fa-arrow-right">NEXT</i></button>
+			</div>
+		</div>
+	</section>
+	<section class="my-4 py-2 sec4" id="hight-quality">
+			<div class="container  pt-5 text-white">
+				<div class="row justify-content-center">
+					<h1 class="col-10 text-center text-white higth-qua"><b>Hight Quality Services</b></h1>
+				</div>
+				<div class="row bg-20dark mb-5 justify-content-center">
+					<div class="col-md-4 col-10 text-center pt-5">
+						<img class="d-block mx-auto" src="images/icon-hightqality1.png">
+						<h4 class="my-3 td-color">Ice Cream</h4>
+						<p class="p-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+						<p class="text-center"><a    href="#" class="btn btn-warning rounded-pill text-white px-4  p-14">More infor</a></p>
+					</div>
+					
+					<div class="col-md-4 col-10 text-center pt-5">
+						<img class="d-block mx-auto" src="images/icon-hightqality2.png">
+					  <h4 class="my-3 td-color">Ice Cream</h4>
+						<p class="p-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+						<p class="text-center"><a    href="#" class="btn btn-warning rounded-pill text-white px-4  p-14">More infor</a></p>
+					</div>
+					
+					<div class="col-md-4 col-10 text-center pt-5">
+						<img class="d-block mx-auto" src="images/icon-hightqality3.png">
+						<h4 class="my-3 td-color">Ice Cream</h4>
+						<p class="p-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer.</p>
+						<p class="text-center"><a    href="#" class="btn btn-warning rounded-pill text-white px-4  p-14">More infor</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="sec6">
+		<div class="container">
+			<h2 class="ourprices text-white text-center pt-5 margin1">Our Prices</h2>
+			<div class="row mt-lg-5">
+				<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+					<div>
+						<div class="box3 mx-auto mt-cake item">
+							<h3 class="text-white text-center name-text shop-item-title">Small Box</h3>
+							<div class="note-hcn text-center">
+								<h2 class="color-t6 mt-4 shop-item-price">15$</h2>
+								<button class="for-cake">For 1 cake</button>
+								<p class="td-cake color-t6">1 x Sweet Aniseed</p>
+								<p class="td-cake color-t6">1 x Soft Fruits</p>
+								<p class="td-cake color-t6">1 x Assorted</p>
+								<button class="buy  btn-warning  btn mx-auto shop-item-button"><b>Buy now</b></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+					<div>
+						<div class="hinh1 mx-auto mt-cake item">
+							<h3 class="text-white text-center name-text shop-item-title">Medium Box</h3>
+							<div class="note-hcn text-center">
+								<h2 class="color-t6 mt-4 shop-item-price">35$</h2>
+								<button class="for-cake">For 1 cake</button>
+								<p class="td-cake color-t6">2 x Sweet Aniseed</p>
+								<p class="td-cake color-t6">2 x Soft Fruits</p>
+								<p class="td-cake color-t6">2 x Assorted</p>
+								<button class="buy  btn-warning  btn mx-auto shop-item-button"><b>Buy now</b></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+					<div>
+						<div class="hinh2 mx-auto mt-cake item shop-item-image">
+							<h3 class="text-white text-center name-text shop-item-title">Assorty Box</h3>
+							<div class="note-hcn text-center">
+								<h2 class="color-t6 mt-4 shop-item-price">55$</h2>
+								<button class="for-cake">For 1 cake</button>
+								<p class="td-cake color-t6">5 x Sweet Aniseed</p>
+								<p class="td-cake color-t6">5 x Assorted</p>
+								<p class="td-cake color-t6">5 x Sweet Aniseed</p>
+								<button class="buy  btn-warning  btn mx-auto shop-item-button"><b>Buy now</b></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+					<div>
+						<div class="hinh3 mx-auto mt-cake item">
+							<h3 class="text-white text-center name-text shop-item-title">Big Box</h3>
+							<div class="note-hcn text-center">
+								<h2 class="color-t6 mt-4 shop-item-price">95$</h2>
+								<button class="for-cake">For 1 cake</button>
+								<p class="td-cake color-t6">10 x Sweet Aniseed</p>
+								<p class="td-cake color-t6">10 x Assorted</p>
+								<p class="td-cake color-t6">10 x Sweet Aniseed</p>
+								<button class="buy  btn-warning  btn mx-auto shop-item-button"><b>Buy now</b></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class=" sec7">
+		<div class="w-50 mx-auto pt-5 text-center"> <img class="icon" src="images/icon-flavour.png">
+			<h2>Our Clients Say</h2> </div>
+		<section class="client">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-12 col-lg-3 text-center my-5"> <img class="border border-warning rounded-circle img-fluid  mb-4" src="images/client1.jpg">
+						<p class="color-t6 p-13 spa mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat ornare odio.</p>
+						<h3 class="color-t5 p-13 spa"><b>Diana Jone</b></h3> </div>
+					<div class="col-12 col-lg-3 text-center my-5"> <img class="border-10 rounded-circle img-fluid  mb-4" src="images/client2.jpg">
+						<p class="color-t6 p-13 spa mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat ornare odio.</p>
+						<h3 class="color-t5 p-13 spa"><b>Anne Hathaway</b></h3> </div>
+					<div class="col-12 col-lg-3 text-center my-5"> <img class="border-10 rounded-circle img-fluid  mb-4" src="images/client3.jpg">
+						<p class="color-t6 p-13 spa mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suspendisse feugiat ornare odio.</p>
+						<h3 class="color-t5 p-13 spa"><b>John Ford</b></h3></div>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section class="form-contact mt-20 mb-20">
+		<div class="container">
+			<h1 class="our-text text-white text-center pt-5 pb-4">Contact Us</h1>
+			<div class="row justify-content-around bg-trang  mb-5 py-5 col-12">
+				<div class="col-12 col-md-6 col-lg-4  ">
+					<button class="button1">CONTACT US</button>
+					<h5 class="leave my-3"><b>Leave your Feedback</b></h5>
+					<p class="color-t6 text-nho mb-3">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+					<div class="adress row">
+						<p class="col-6 text-sd">Address:</p>
+						<p class="col-6 text-right text-sd">75/68 Hoang Sa</p>
+					</div>
+					<div class="adress row">
+						<p class="col-6 text-sd">City:</p>
+						<p class="col-6 text-right text-sd">Ho Chi Minh</p>
+					</div>
+					<div class="adress row">
+						<p class="col-6 text-sd">Email:</p>
+						<p class="col-6 text-right text-sd">yupee@gmail.com</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-6">
+					<form class="mt-3">
+						<input class="form-send form-send-left" type="text" placeholder="Name">
+						<input class="form-send" type="text" placeholder="Sur Name">
+						<input class="form-send form-send-left" type="email" placeholder="Email">
+						<input class="form-send" type="text" placeholder="City">
+						<input class="form-send-full" type="text" placeholder="Subject">
+						<textarea class="message" placeholder="Message"></textarea>
+					</form>
+					<button class="button2">SEND NOW</button>
+				</div>
+			</div>
+			<br> </div>
+	</section>
+</main>
+	<!-- InstanceEndEditable -->
+<footer>
+  <div class="container text-light">
+		<div class="row justify-content-between">
+		<div class="col-md-4">
+			<img src="images/logo-footer.png">
+		  <p class="mt-4">Lorem ipsum dolor sit amet, matti consectetuer adipiscing  suspendisse et justo.  Praesent mattis ugue
+		  </p>
+			<div class="my-3">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-info"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+				</span>
+			
+			</div>
+			
+			
+			</div>
+		<div class="col-md-3">
+			<h4>Open Hours</h4>
+			<p><b>Monday:</b> Closed </p>
+		<p><b>
+			Tuesday to Friday:</b><br>
+			7:00 AM - 9:00 PM</p>
+			<p><b>Saturday to Sunday:</b><br>11:00 AM - 10:00 PM
+</p>
+			</div>
+		
+		<div class="col-md-4">
+			<h4>Find us</h4>
+		<p>Address:  75/68 Hoang Sa F9, Q3, Tp.HCM</p>
+		</div>
+		</div>
+	</div>
+<div class="row border-top text-light py-4 text-center justify-content-center p-12">
+	Copyright © 2020 Yupee Store. 	
+		
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/shop.js"></script>
+</body>
+<!-- InstanceEnd --></html>

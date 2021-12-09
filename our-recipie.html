@@ -1,0 +1,271 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/templateFW.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Yubee Ice cream</title>
+<!-- InstanceEndEditable -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap-4.3.1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/MAIN-STYLE.css" type="text/css">	
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/shop.css" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div class="modal fade" id="shopping-box">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Giỏ hàng</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="cart-row d-flex"> <span class="cart-item cart-header cart-column">ITEM</span> <span class="cart-price cart-header cart-column">PRICE</span> <span class="cart-quantity cart-header cart-column">QUANTITY</span> </div>
+        <div class="cart-items"> </div>
+        <div class="cart-total"> <strong class="cart-total-title">Total</strong><span> $</span> <span class="cart-total-price text-danger">0</span> </div>
+        <!--  <button class="btn btn-primary btn-purchase" type="button" onClick="getURL()">Thanh toán</button>-->
+        <button type="button" class="btn btn-primary btn-purchase" onClick="MM_goToURL('parent','DIW-06 FINAL/html/THANHTOAN.html');return document.MM_returnValue">Thanh toán</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<header>
+	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="images/logo.png"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="SHOP.html" class="nav-link">Shop</a></li>
+					<li class="nav-item dropdown ">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu bg-primary">
+							<a href="our-staff.html" class="dropdown-item">Our Staff</a>
+							<a href="our-recipie.html" class="dropdown-item">Our Recipies</a>
+							<a href="our-prices.html" class="dropdown-item">Our Prices</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+				<div class="navbar-text">
+				<button type="button" class="btn" data-toggle="modal" data-target="#shopping-box"> <i class="fa fa-shopping-cart fa-2x" style="color: #5C5C5C"> </i> <span class="text-danger" id="sl">0</span></button>
+				
+				<i class="fa fa-search fa-2x ml-3"></i>
+				</div>
+			</div>
+		 </div>
+	</nav>
+	
+	
+	</header>
+	
+	<!-- InstanceBeginEditable name="ndung" -->
+	<div class="tieude-trang text-center"> Our Recipies
+        <p>Index / Our Recipies</p>
+	</div>
+	<main>
+		
+		<div class="d-flex justify-content-start">
+			<img class="row col-4 col-md-3" src="images/top-left2.png">
+		</div>
+		<div class="container">
+			<section class="row justify-content-center">
+		<div class="col-8 text-center">
+		<img style="height: 40px" src="images/image 47.png">
+		<h1 class="text-td">Recipie For You</h1>
+	    </div>
+	       </section>
+			
+			<section class="row justify-content-center mt-10 mb-5">
+				<div class="col-12 col-md-2">
+					<button class="down-but w-100">Browse <i class="fa fa-angle-down"></i></button>
+				</div>
+				<div class="col-12 col-md-7">
+					<form>
+						<input class="search-re " type="text" placeholder="Find a recipe...">
+					</form>
+				</div>
+				<div class="col-12 col-md-3 row">
+					<button class="down-but1 w-75">Newest <i class="fa fa-angle-down"></i></button>
+					<i class="fa fa-search w-25 search-icon"></i>
+				</div>
+			</section>
+			<section class="row ">
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div>
+						<img class="library my-3" src="images/Mask Group (12).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Vanilla Ice Cream</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(8).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Homemade Ice Cream</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(9).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Endless Flavor Capcakes</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+			
+		
+			
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div>
+						<img class="library my-3 " src="images/Mask Group 1(10).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Avocado Ice Cream</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(11).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Chocolate Macarons</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(12).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Lemon Scope</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+			
+			
+			
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div>
+						<img class="library my-3 " src="images/Mask Group 1(13).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Fresh Vanilla</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(21).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Light Mint</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 justify-content-center can">
+					<div >
+						<img class="library my-3 " src="images/Mask Group 1(22).png">
+						<div class="note-box text-center">
+							<h3 class="recipie-td">Moose Tracks</h3>
+							<hr class="hr-x">
+							<p class="recipie-nd">By <b>admin</b></p>
+						</div>
+					</div>
+				</div>
+			</section>
+				<div class="container mt-10">
+					<div class="col-12">
+						<img class="img-fluid margin1" src="images/Group 94.png">
+					</div>
+				</div>
+		</div>
+		<div class="d-flex justify-content-end">
+			<img class="col-4 col-md-3" src="images/right-bottom2.png">
+		</div>
+	</main>
+	<!-- InstanceEndEditable -->
+<footer>
+  <div class="container text-light">
+		<div class="row justify-content-between">
+		<div class="col-md-4">
+			<img src="images/logo-footer.png">
+		  <p class="mt-4">Lorem ipsum dolor sit amet, matti consectetuer adipiscing  suspendisse et justo.  Praesent mattis ugue
+		  </p>
+			<div class="my-3">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-info"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+				</span>
+			
+			</div>
+			
+			
+			</div>
+		<div class="col-md-3">
+			<h4>Open Hours</h4>
+			<p><b>Monday:</b> Closed </p>
+		<p><b>
+			Tuesday to Friday:</b><br>
+			7:00 AM - 9:00 PM</p>
+			<p><b>Saturday to Sunday:</b><br>11:00 AM - 10:00 PM
+</p>
+			</div>
+		
+		<div class="col-md-4">
+			<h4>Find us</h4>
+		<p>Address:  75/68 Hoang Sa F9, Q3, Tp.HCM</p>
+		</div>
+		</div>
+	</div>
+<div class="row border-top text-light py-4 text-center justify-content-center p-12">
+	Copyright © 2020 Yupee Store. 	
+		
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/shop.js"></script>
+</body>
+<!-- InstanceEnd --></html>

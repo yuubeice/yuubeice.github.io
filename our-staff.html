@@ -1,0 +1,226 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/templateFW.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Yubee Ice cream</title>
+<!-- InstanceEndEditable -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap-4.3.1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/MAIN-STYLE.css" type="text/css">	
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/shop.css" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div class="modal fade" id="shopping-box">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Giỏ hàng</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="cart-row d-flex"> <span class="cart-item cart-header cart-column">ITEM</span> <span class="cart-price cart-header cart-column">PRICE</span> <span class="cart-quantity cart-header cart-column">QUANTITY</span> </div>
+        <div class="cart-items"> </div>
+        <div class="cart-total"> <strong class="cart-total-title">Total</strong><span> $</span> <span class="cart-total-price text-danger">0</span> </div>
+        <!--  <button class="btn btn-primary btn-purchase" type="button" onClick="getURL()">Thanh toán</button>-->
+        <button type="button" class="btn btn-primary btn-purchase" onClick="MM_goToURL('parent','DIW-06 FINAL/html/THANHTOAN.html');return document.MM_returnValue">Thanh toán</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<header>
+	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="images/logo.png"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="SHOP.html" class="nav-link">Shop</a></li>
+					<li class="nav-item dropdown ">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu bg-primary">
+							<a href="our-staff.html" class="dropdown-item">Our Staff</a>
+							<a href="our-recipie.html" class="dropdown-item">Our Recipies</a>
+							<a href="our-prices.html" class="dropdown-item">Our Prices</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+				<div class="navbar-text">
+				<button type="button" class="btn" data-toggle="modal" data-target="#shopping-box"> <i class="fa fa-shopping-cart fa-2x" style="color: #5C5C5C"> </i> <span class="text-danger" id="sl">0</span></button>
+				
+				<i class="fa fa-search fa-2x ml-3"></i>
+				</div>
+			</div>
+		 </div>
+	</nav>
+	
+	
+	</header>
+	
+	<!-- InstanceBeginEditable name="ndung" -->
+	<div class="tieude-trang text-center"> Our Staff
+        <p></p>
+	</div>
+	<main>
+		<div class="d-flex justify-content-start">
+			<img class="row col-4 col-md-3" src="images/top-left2.png">
+		</div>
+		<div class="container">
+			<section class="row justify-content-center">
+		<div class="col-8 text-center">
+		<img style="height: 40px" src="images/image 47.png">
+		<h1 class="text-td">Our staff</h1>
+		<p class="text-nd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisi et dolor ornare pellentesque Nullam porttitor,odio id facilisis dapibus, mauris dolor rhoncus elit, ultricies nulla eros at dui. In suscipit  sagittis aliquam.</p>
+	    </div>
+	       </section>
+		   <section class="row mt-7e margin1">
+			   <div class="col-12 col-md-4 text-center spbox">
+				   <img class="width-img img-fluid" src="images/Component 62.png">
+				   <h5 class="mt-3">Mary Thompson</h5>
+				   <p class="text-cv">Sous Chef</p>
+				   <div class="buy-now">
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					        </span>
+			   </div>
+			   </div>
+			   <div class="col-12 col-md-4 text-center spbox">
+				   <img class="width-img img-fluid" src="images/Group 36.png">
+				   <h5 class="mt-3">Ember Doe</h5>
+				   <p class="text-cv">Executive Chef</p><div class="buy-now">
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					        </span>
+			   </div> </div>
+			   <div class="col-12 col-md-4 text-center spbox">
+				   <img class="width-img img-fluid" src="images/Group 37.png">
+				   <h5 class="mt-3">Alex Doe</h5>
+				   <p class="text-cv">Chef</p><div class="buy-now">
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					        </span>
+							<span class="fa-stack fa-lg mx-3">
+						<i class="fa fa-circle fa-stack-2x but-color2"></i>
+						<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					        </span>
+						 
+						</div>
+			   </div>
+		   </section>
+			</div>
+           <section class="bg-img1 mt-7e">
+			   <div class="container">
+				 <section class="row">
+					   <div class="col-12 col-md-6 text-center">
+					   <img class="col-6 col-md-9 mt-2" src="images/image 52.png">
+				   </div>
+				   <div class="col-12 col-md-6 text-center margin1">
+					   <img src="images/Group 38.png">
+					   <h2 class="color-t1">Alex Doe</h2>
+					   <p class="color-t2 p-14"><em>Masterchef</em></p>
+<p class="color-t1 p-13 px-3">Doe is a Roman-born pastry chef who spent 15 years in his city Rome perfecting his craft and exceptional creations. Vestibulum rhoncus ornare tincidunt. Etiam pretium metus sit amet est aliquet vulputate. Fusce et cursus ligula. Sed accumsan dictum porta. Aliquam rutrum ullamcorper velit hendrerit convallis.</p>
+					   <button class="p-2 btn btn-danger">Our Services</button>
+				   </div>
+				 </section>
+			   </div>
+		   </section> 		
+		<div class="d-flex justify-content-end">
+			<img class="col-4 col-md-3" src="images/right-bottom2.png">
+		</div>
+	</main>
+	<!-- InstanceEndEditable -->
+<footer>
+  <div class="container text-light">
+		<div class="row justify-content-between">
+		<div class="col-md-4">
+			<img src="images/logo-footer.png">
+		  <p class="mt-4">Lorem ipsum dolor sit amet, matti consectetuer adipiscing  suspendisse et justo.  Praesent mattis ugue
+		  </p>
+			<div class="my-3">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-info"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+				</span>
+			
+			</div>
+			
+			
+			</div>
+		<div class="col-md-3">
+			<h4>Open Hours</h4>
+			<p><b>Monday:</b> Closed </p>
+		<p><b>
+			Tuesday to Friday:</b><br>
+			7:00 AM - 9:00 PM</p>
+			<p><b>Saturday to Sunday:</b><br>11:00 AM - 10:00 PM
+</p>
+			</div>
+		
+		<div class="col-md-4">
+			<h4>Find us</h4>
+		<p>Address:  75/68 Hoang Sa F9, Q3, Tp.HCM</p>
+		</div>
+		</div>
+	</div>
+<div class="row border-top text-light py-4 text-center justify-content-center p-12">
+	Copyright © 2020 Yupee Store. 	
+		
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/shop.js"></script>
+</body>
+<!-- InstanceEnd --></html>
